@@ -1,6 +1,16 @@
 public class Pila {
     private int tope;
     private int pila[];
+    private int id;
+
+    public void setID(int id){
+        this.id=id;
+    }
+
+    public int getID(){
+        return id;
+    }
+
     
     public Pila (int capacidad){
         pila=new int [capacidad];
