@@ -30,7 +30,7 @@ public class Main{
                         productos++;
                         canasta.agregar(productos);
                     }
-                }while(resp != 'n');
+                }while(resp != 'n' && productos < 5);
                 int alea = (int) (Math.random()* 3+1);
                 canastas.add(canasta);
                 //System.out.println(alea);
